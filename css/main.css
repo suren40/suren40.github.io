@@ -3,3 +3,16 @@
 	display: block;
 	color: #00ff00;
 }
+body{
+
+    background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
+} 
+#profile{
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
+}
+#name
+{
+    color:blue;
+}
