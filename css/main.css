@@ -12,7 +12,45 @@ body{
     width: 152px;
     border-radius: 50%;
 }
-#name
+.name
 {
     color:blue;
+    line-height: normal;
+    
+}
+h1
+{
+    
+    margin:0;
+    padding:0;
+}
+h4
+{
+    margin:0;
+    padding:0;
+    color: black;
+}
+nav {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+  }
+ul{
+    list-style: none;
+
+}
+li
+{
+    display: inline-block;
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 14px;
+    color:black;
+    
 }
