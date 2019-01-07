@@ -6,7 +6,7 @@
 body{
 
     background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
-} 
+}
 #profile{
     height: 152px;
     width: 152px;
@@ -16,11 +16,11 @@ body{
 {
     color:blue;
     line-height: normal;
-    
+
 }
 h1
 {
-    
+
     margin:0;
     padding:0;
 }
@@ -29,13 +29,14 @@ h4
     margin:0;
     padding:0;
     color: black;
+		font-family: monospace;
 }
 nav {
     float: none;
     position: absolute;
     top: 50%;
     left: 50%;
-    
+
     transform: translate(-50%, -50%);
   }
 ul{
@@ -52,5 +53,9 @@ ul li a{
     padding: 0 20px;
     font-size: 14px;
     color:black;
-    
+
+}
+.About
+{
+	font-family: Lobster;
 }
