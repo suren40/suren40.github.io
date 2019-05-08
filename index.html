@@ -16,6 +16,7 @@
 
     <script src="main.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
 
 </head>
 <div class="background-info">
@@ -24,11 +25,11 @@
         <img src="./img/Profile_Pic.jpeg" id="profile" alt="My Profile_pic" height="152" width="152">
     </header>
     <main>
-    <span class="name"><h1>SURENDRA TAMANG</h1>
+    <div class="name"><h1> {{name}}</h1>
           <h4> Electrical Engineering Student(4th year)</h4>
-          <h4> Western Regional Campus,Pokhara</h4>
-          <h4>72bel240@wrc.edu.np</h4>
-      </span>
+          <h4> {{address}} </h4>
+          <h4>{{email_id}}</h4>
+    </div>
       </main>
 </center>
 </div>
@@ -43,9 +44,12 @@
 
 </nav>
 -->
-<article>
+<div id="aboutme">
   <h4 id="About">About Me</h4>
-</article>
+<h1>{{name}}</h1>
+</div>
+<script src="app.js"></script>
 </body>
 
 </html>
+
