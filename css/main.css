@@ -1,68 +1,82 @@
-.class
-{
-	display: block;
-	color: #00ff00;
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
 }
-body{
-
-    background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
+html,body{
+    height: 100%;
 }
-#profile{
-    height: 152px;
-    width: 152px;
-    border-radius: 50%;
-		border-style:solid;
-		border-color: inherit;
-		border-width: medium;
-}
-.background-info
-{
-	background-color: linear-gradient(35deg,#CCFFFF,#FFCCCC);
-}
-.name
-{
-    color:blue;
-    line-height: normal;
+.first_page{
+    height: 100%;
 
 }
-h1
+.container
 {
-
-    margin:0;
-    padding:0;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+    background-color: rgb(255, 123, 0);
+    width: 100%;
+    position:fixed;
 }
-h4
-{
-    margin:0;
-    padding:0;
-    color: black;
-		font-family: monospace;
-}
-nav {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-  }
-ul{
+nav ul {
     list-style: none;
 
 }
-li
-{
-    display: inline-block;
-    float: left;
-}
-ul li a{
+a{
     text-decoration: none;
-    padding: 0 20px;
-    font-size: 14px;
-    color:black;
+    text-transform: uppercase;
+    color: beige;
+    font-weight: bolder;
+}
+nav ul li{
+    display: inline;
+    padding: 16px;
+}
+nav ul li a:hover
+{
+
+color:rebeccapurple;
+}
+.container button
+{
+    font-weight: bolder;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 4px 16px;
+    
 
 }
-.About
-{
-	font-family: Lobster;
+.greeting
+{  
+    font-size: 1.45em;
+    padding-top:200px;
+    padding-left:20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#name{
+    color: brown;
+    font-weight: bold;
+}
+#about_me,#portfolio,#contact{
+    padding:100px;
+}
+span#post_changer::before{
+    content: '';
+    animation: animate infinite 10s;
+    font-weight: bolder;
+}
+@keyframes animate{
+    0%{
+        content: 'Software Developer';
+    }
+    50%{
+        content: 'Web Developer';
+    }
+    100%{
+        content:'Engineering Student';
+    }
+}
+
 }

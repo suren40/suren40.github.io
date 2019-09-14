@@ -1,55 +1,62 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Surendra Tamang|Learner|Dreamer|Electrical Engineering Student|Want to be Entrepreneur</title>
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" description="I'm Surendra Tamang. I am interested in technology,travelling.">
-    <meta name="author" author="Surendra Tamang">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-
-
-    <script src="main.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Surendra Tamang|Front-end developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<div class="background-info">
-<center>
+<body>
+    <div class="first_page">
     <header>
-        <img src="./img/Profile_Pic.jpeg" id="profile" alt="My Profile_pic" height="152" width="152">
+
+        <div class="container">
+            
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <img src="./images/logo.png" alt="MyLogo">
+                    </a>
+                </div>
+                <nav>
+
+                <ul>
+                    <li><a href="#about_me">about me</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                
+            </nav>
+            <button class="">contact</button>
+        </div>
     </header>
-    <main>
-    <div class="name"><h1> {{name}}</h1>
-          <h4> Electrical Engineering Student(4th year)</h4>
-          <h4> {{address}} </h4>
-          <h4>{{email_id}}</h4>
-    </div>
-      </main>
-</center>
-</div>
-<!--<nav id="menu">
-    <ul>
-        <li><a href="http://">HOME</a></li>
-        <li><a href="http://">ABOUT</a></li>
-        <li> <a href="http://">SKILLS</a></li>
-        <li> <a href="http://">AWARDS</a> </li>
-        <li> <a href="http://">CONTACT</a></li>
-    </ul>
+    <main class="page_main greeting">
+        <h1>Namakasar &#x1F64F; ,
+            <br>
+            I'm <span id="name">Surendra Tamang</span>
+        </h1>
+        <br>
+        A
+        <span id="post_changer"></span>
+       
 
-</nav>
--->
-<div id="aboutme">
-  <h4 id="About">About Me</h4>
-<h1>{{name}}</h1>
+    </main>
 </div>
-<script src="app.js"></script>
+<div class="first_page" id="about_me">
+    <center>About Me
+        <br>
+        If you are <em>wondering</em> who <em>I am..</em>
+    </center>
+
+</div>
+<div class="first_page" id="portfolio">
+    <center><h1>My portfolio</h1></center>
+
+</div>
+<div class="first_page" id="contact">
+    <h1>Contact</h1>
+
+</div>
+
 </body>
-
 </html>
-
